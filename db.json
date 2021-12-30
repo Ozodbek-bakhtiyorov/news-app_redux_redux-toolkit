@@ -1,0 +1,62 @@
+{
+  "news": [
+    {
+      "id": "acbefcc1-1b45-4a83-88a9-732d4fbeb1ac",
+      "name": "asdASD",
+      "description": "asdfasdfasdf",
+      "category": "sport"
+    },
+    {
+      "id": "9618e8a0-a352-4dd1-91c6-a54d7ed64f2b",
+      "name": "sdfasdf",
+      "description": "sdfasd",
+      "category": "sport"
+    },
+    {
+      "id": "a0ed8540-ee97-4f66-86df-424f850c21e0",
+      "name": "dsfadfadf",
+      "description": "asdfasdfa",
+      "category": "sport"
+    },
+    {
+      "id": "8ae26089-d23b-4582-9eca-a04121cb3532",
+      "name": "dsfa",
+      "description": "dsfasdfa",
+      "category": ""
+    },
+    {
+      "id": "7c58f3e0-e202-46c8-88f7-1ccd820b48b1",
+      "name": "asdfa",
+      "description": "dsfa",
+      "category": ""
+    },
+    {
+      "id": "42b60132-d7b5-4597-9962-0170c5ecd29b",
+      "name": "dsfa",
+      "description": "sdfasdfa",
+      "category": "sport"
+    }
+  ],
+  "filters": [
+    {
+      "name": "all",
+      "label": "All",
+      "className": "btn btn-outline-info text-dark bold-text"
+    },
+    {
+      "name": "hot",
+      "label": "Hot News",
+      "className": "btn btn-outline-info text-dark bold-text"
+    },
+    {
+      "name": "sport",
+      "label": "Sport News",
+      "className": "btn btn-outline-info text-dark bold-text"
+    },
+    {
+      "name": "edu",
+      "label": "Education",
+      "className": "btn btn-outline-info text-dark bold-text"
+    }
+  ]
+}

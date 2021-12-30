@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+.app{
+  height: 100vh;
+  overflow: auto;
+  background:url('./assets/images/bg.jpg') center / cover no-repeat;
+}
+.content{
+  background:rgb(14, 7, 7,.6);
+  border-radius: 10px;
+  color: white;
+  display: grid;
+  grid-template-columns: 500px 450px;
+  max-width: 80vw;
+  padding-top: 50px;
+  &__page{
+    padding-left: 40px;
+  }
+}
+
+
+.show{
+  transition: all .4s ease-in-out;
+  opacity: 1;
+  transform: 0;
+}
+.hide{
+  transition: all .4s ease-in-out;
+  opacity: 0;
+  transform: -100%;
+}
+
+.form{
+  background-image: linear-gradient(to right top,rgb(184, 161, 161,.4),rgb(255, 255, 255,.7));
+  border-radius: 10px;
+  form{
+    border-radius: 10px;
+  }
+}
